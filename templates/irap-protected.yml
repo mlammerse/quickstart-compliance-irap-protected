@@ -209,7 +209,7 @@ Parameters:
   DBInstanceClass:
     Description: The database instance type
     Type: String
-    Default: db.t2.small
+    Default: db.t2.medium
     AllowedValues:
       - db.t1.micro
       - db.m1.small
