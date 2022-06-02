@@ -951,7 +951,7 @@ Resources:
     Properties:
       Description: Register Application Load Balancer to Network Load Balancer
       Handler: populate_NLB_TG_with_ALB.lambda_handler
-      Runtime: python2.7
+      Runtime: python3.7
       Role: !GetAtt UpdateALBIAMRole.Arn
       Timeout: 300
       Code:
